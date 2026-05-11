@@ -1,1 +1,6 @@
+#for humble 22.04 version
+ sudo apt install ros-humble-ros-gz
+
+#for jazzy 24.04 version
+sudo apt install ros-jazzy-ros-gz
 
