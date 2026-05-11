@@ -1,1 +1,70 @@
+install terminator
+Run:
+  sudo  apt update
+  sudo apt install terminator -y
 
+Launch Terminator correctly
+Run:
+  terminator
+
+These should split the terminal.
+Ctrl + Shift + O
+Ctrl + Shift + E
+
+To resize terminal splits:
+## Mouse Method
+Move cursor on the line between terminals.
+When cursor changes shape:
+
+* Click and drag
+You can resize:
+* left/right
+* up/down
+---
+
+## Keyboard Shortcuts
+### Resize mode
+Press:
+```text id="s0m3kd"
+Alt + Up Arrow
+Alt + Down Arrow
+Alt + Left Arrow
+Alt + Right Arrow
+```
+Sometimes depending on Ubuntu:
+
+```text id="q7v2pl"
+Ctrl + Shift + Arrow Keys
+```
+
+may also work.
+---
+
+## Zoom one terminal temporarily
+Press:
+```text id="u2g8er"
+Ctrl + Shift + X
+```
+This maximizes current pane.
+Press again to restore splits.
+---
+
+## Close one split
+Move to pane and press:
+```text id="w4k9ta"
+Ctrl + Shift + W
+```
+
+---
+
+## Navigate between splits
+Use:
+```text id="j6n1yb"
+Alt + Arrow Keys
+```
+
+Example:
+
+* `Alt + Left`
+* `Alt + Right`
+* RViz simultaneously.
