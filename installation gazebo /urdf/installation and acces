@@ -1,1 +1,24 @@
+#command 
+  sudo apt install ros-humble-urdf-tutorial
 
+#also added the path in source file 
+  source /opt/ros/humble/setup.bash
+  gedit .bashrc
+  #add path in the file " source /opt/ros/humble/setup.bash "
+
+#checking installed packages
+  cd /opt/ros/humble/
+  ls
+  #acess the directory
+  cd share/
+  ls
+  #ctrl + l
+  cd urdf_tutorial/
+  ls
+  cd urdf/
+  ls
+  ros2 launch urdf_tutorial display.launch.py model:=08.macroed.urdf.xacro
+  
+
+
+  
