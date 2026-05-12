@@ -1,0 +1,4 @@
+#firstly create a file
+  cd
+  touch my_robot.urdf
+#open in vscode
