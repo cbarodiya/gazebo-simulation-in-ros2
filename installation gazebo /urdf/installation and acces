@@ -19,6 +19,8 @@
   ls
   ros2 launch urdf_tutorial display.launch.py model:=08.macroed.urdf.xacro
   
-
+ # At the time graf is not display ther error is in the display system them run 
+  export DISPLAY=:0
+#this command is enable the display
 
   
