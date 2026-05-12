@@ -3,3 +3,6 @@
   cd
   touch my_robot.urdf
 #open in vscode
+
+# run this file 
+  ros2 launch urdf_tutorial display.launch.py model:=my_robot.urdf
