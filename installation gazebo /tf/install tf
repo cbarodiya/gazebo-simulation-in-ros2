@@ -1,0 +1,8 @@
+# installation command 
+   sudo apt install ros-humble-tf2-tools
+# run command it generate pdf of the current runing topic 
+   ros2 run tf2_tools view_frames
+#and acces the generated pdf
+  sudo apt install evince
+  evince frames_2026-05-12_17.22.59.pdf 
+  #frames_2026-05-12_17.22.59.pdf is the file name you can change according to them 
