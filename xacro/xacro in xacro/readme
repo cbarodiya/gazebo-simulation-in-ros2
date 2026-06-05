@@ -1,0 +1,5 @@
+only you will run main urdf file "my_robot.urdf.xacro"
+one comtent splite in three files  "my_robot.urdf.xacro", "common_properties.xacro", "mobile_base.xacro"
+command run main file
+  cd
+  ros2 launch urdf_tutorial display.launch.py model:=/home/cbarodiya02/ros2_ws/src/my_robot_description/urdf/my_robot.urdf.xacro
